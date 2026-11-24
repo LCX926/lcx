@@ -1,0 +1,36 @@
+{
+  "cases_compared": 11014,
+  "seed": 20261124,
+  "max_absolute_error_per_output": [
+    2.3283064365386963e-10,
+    1.8917489796876907e-10,
+    6.984919309616089e-10,
+    5.820766091346741e-10,
+    1.7881393432617188e-06,
+    2.5033950805664062e-06,
+    0.0,
+    0.0,
+    0.0,
+    1.862645149230957e-09,
+    1.862645149230957e-09,
+    7.450580596923828e-09,
+    5.587935447692871e-09,
+    6.984919309616089e-10,
+    5.820766091346741e-10,
+    1.4901161193847656e-08,
+    1.862645149230957e-09
+  ],
+  "max_error_over_1_plus_abs_reference": 1.1175870853752379e-08,
+  "branch_cases": {
+    "traction_saturated": 8184,
+    "support_lifted": 8005,
+    "normal_zero": 2319
+  },
+  "compiler": [
+    ".tools/ziglang/zig.exe",
+    "cc"
+  ],
+  "compiler_version": "clang version 22.1.8",
+  "c_sha256": "93a7e4e9e405f0363ae018aec0780b0825d1db887b4397031bac0d22ae1cbf97",
+  "scope": "C vs scalar source-equation translation; no MATLAB/Simulink execution or target MCU timing"
+}

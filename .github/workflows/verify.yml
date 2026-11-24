@@ -1,0 +1,20 @@
+name: Verify scalar model port
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  numerical-equivalence:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        compiler: [gcc, clang]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tests/verify.py --cc ${{ matrix.compiler }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: numerical-validation-${{ matrix.compiler }}
+          path: build/validation.json

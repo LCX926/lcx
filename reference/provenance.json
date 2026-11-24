@@ -1,0 +1,9 @@
+{
+  "source_model": "shearer_machine_dynamics_complete_MG1000.slx",
+  "source_sha256": "319896723965A4724CC3C8C9E7E2172D860E81963BECB0DD584B0FFB0A69C5A7",
+  "charts": {
+    "chart_38.m": "01c0b782f0546f85dd287ed59157d8739bdfa3f53b42ef8dd48c2b829b7fa552",
+    "chart_61.m": "5afbf645318e4b4b1baef73115d18b5a29751621fa11031d605e8079fd71537c",
+    "chart_99.m": "01c0b782f0546f85dd287ed59157d8739bdfa3f53b42ef8dd48c2b829b7fa552"
+  }
+}
